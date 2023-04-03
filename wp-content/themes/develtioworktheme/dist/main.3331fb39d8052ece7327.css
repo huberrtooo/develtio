@@ -1,3 +1,7 @@
+/*!********************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main.scss ***!
+  \********************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Quicksand:wght@400;600;700&display=swap);
 /*!************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/aos/dist/aos.css ***!
   \************************************************************************************************************************/
@@ -953,9 +957,9 @@
 [data-aos=flip-down].aos-animate {
   transform: perspective(2500px) rotateX(0);
 }
-/*!********************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main.scss ***!
-  \********************************************************************************************************/
+/*!************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main.scss (1) ***!
+  \************************************************************************************************************/
 @charset "UTF-8";
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
@@ -11728,6 +11732,34 @@ textarea.form-control-lg {
   }
 }
 body {
+  font-family: "Lato", sans-serif;
+  font-size: 17px;
+}
+
+.footer {
   background-color: #1C3E95;
+}
+.footer .nav-link {
   color: #FFF;
+  padding: 5px 0;
+}
+.footer .nav-link:hover,
+.footer .nav-link.active {
+  color: #FE7A22;
+}
+
+.footer__navtitle {
+  color: #FFF;
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.footer__phone {
+  color: #FE7A22;
+  font-weight: 700;
+  font-size: 25px;
+  text-decoration: none;
+  white-space: nowrap;
 }

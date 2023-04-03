@@ -4,7 +4,6 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                strona główna
             </div>
         </div>
     </div>

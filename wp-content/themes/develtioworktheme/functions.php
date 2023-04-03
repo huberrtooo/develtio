@@ -37,10 +37,10 @@ add_action('after_setup_theme', 'config_custom_theme');
 
 // register menu
 register_nav_menus([
-	'header-menu' => __('Menu główne'),
-	'footer-features' => __('Menu About'),
-	'footer-services' => __('Menu Insurance'),
-	'footer-support' => __('Menu Help'),
+	'header-menu' => __('Main header menu'),
+	'footer-about' => __('About footer menu'),
+	'footer-insurance' => __('Insurance footer menu'),
+	'footer-support' => __('Support footer menu'),
 ]);
 
 
@@ -120,3 +120,11 @@ class bootstrap_5_wp_nav_menu_walker extends Walker_Nav_menu
 		$output .= apply_filters('walker_nav_menu_start_el', $item_output, $item, $depth, $args);
 	}
 }
+
+//allow svg files
+
+function cc_mime_types($mimes) {
+	$mimes['svg'] = 'image/svg+xml';
+	return $mimes;
+  }
+  add_filter('upload_mimes', 'cc_mime_types');
