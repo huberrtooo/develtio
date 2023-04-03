@@ -21,4 +21,11 @@ $f-lato: 'Lato', sans-serif;
     border-radius: 10px;
     padding: 1rem 4rem;
     border: 2px solid $c-orange;
+    text-decoration: none;
+    transition: all .4s;
+}
+
+.button:hover{
+    background-color: $c-white;
+    color: $c-orange;
 }

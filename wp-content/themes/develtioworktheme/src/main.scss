@@ -16,6 +16,11 @@ body {
         color: $c-blue;
         font-size: 20px; //different as project
         text-transform: lowercase;
+        transition: all .4s;
+    }
+
+    .nav-link:hover {
+        color: $c-orange;
     }
 }
 
@@ -31,6 +36,7 @@ body {
     position: relative;
     background-size: cover;
     padding: 0;
+    height: 70vh;
 }
 
 
@@ -54,12 +60,29 @@ body {
     padding: 0;
 }
 
+@media only screen and (max-width: 767px) {
+    .hero {
+        height: auto;
+    }
+
+    .hero__bluebox {
+        position: relative;
+    }
+}
+
 .hero__header {
     color: $c-orange;
     font-family: $f-quicksand;
     font-weight: 700;
     font-size: 52px;
     line-height: 56px;
+}
+
+@media only screen and (max-width: 767px) {
+    .hero__header {
+        font-size: 46px;
+        line-height: 52px;
+    }
 }
 
 .hero__desc {
@@ -98,7 +121,7 @@ body {
 
     .wpcf7-not-valid-tip{
         padding-top: 5px;
-        font-size: 8px;
+        font-size: 9px;
     }
 
     .wpcf7-spinner{
@@ -124,6 +147,38 @@ body {
         font-size: 13px;
         font-weight: 300;
     }
+}
+
+
+// ABOUT / OFFER
+.about{
+    position: relative;
+    background-image: url('../assets/section-bg.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+.about__bigheader {
+    color: $c-blue;
+    font-family: $f-quicksand;
+    font-weight: 700;
+    font-size: 63px;
+    line-height: 68px;
+}
+
+@media only screen and (max-width: 767px) {
+    .about__bigheader {
+        font-size: 46px;
+        line-height: 60px;
+    }
+}
+
+.about__header{
+    color: $c-blue;
+    font-family: $f-quicksand;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px;
 }
 
 
@@ -156,5 +211,9 @@ body {
     font-size: 25px;
     text-decoration: none;
     white-space: nowrap;
+    transition: all .2s;
+}
 
+.footer__phone:hover{
+    color: $c-white;
 }

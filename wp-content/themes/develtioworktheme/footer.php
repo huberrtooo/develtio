@@ -2,7 +2,7 @@
             <div class="container-fluid py-5 footer">
                 <div class="container py-4">
                     <div class="row">
-                        <div class="col-12 col-md-6 col-lg-3">
+                        <div class="col-12 col-md-6 col-lg-3" data-aos="fade-left" data-aos-delay="200">
                             <h4 class="footer__navtitle">O nas</h4>
                             <?php wp_nav_menu(array(
                                 'theme_location' => 'footer-about',
@@ -14,7 +14,7 @@
                                 'walker' => new bootstrap_5_wp_nav_menu_walker()
                             )); ?>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-3 pt-4 pt-md-0">
+                        <div class="col-12 col-md-6 col-lg-3 pt-4 pt-md-0" data-aos="fade-left" data-aos-delay="400">
                             <h4 class="footer__navtitle">Ubezpieczenia</h4>
                             <?php wp_nav_menu(array(
                                 'theme_location' => 'footer-insurance',
@@ -26,7 +26,7 @@
                                 'walker' => new bootstrap_5_wp_nav_menu_walker()
                             )); ?>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-3 pt-4 pt-lg-0">
+                        <div class="col-12 col-md-6 col-lg-3 pt-4 pt-lg-0" data-aos="fade-left" data-aos-delay="600">
                             <h4 class="footer__navtitle">Pomoc</h4>
                             <?php wp_nav_menu(array(
                                 'theme_location' => 'footer-support',
@@ -38,7 +38,7 @@
                                 'walker' => new bootstrap_5_wp_nav_menu_walker()
                             )); ?>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-3 pt-4 pt-lg-0">
+                        <div class="col-12 col-md-6 col-lg-3 pt-4 pt-lg-0"data-aos="fade-left" data-aos-delay="800">
                             <h4 class="footer__navtitle">Infolinia</h4>
                             <a class="footer__phone" href="tel:+48223111234">+48 22 311 1234</a>
                         </div>
