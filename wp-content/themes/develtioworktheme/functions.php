@@ -7,6 +7,7 @@ function scripts()
 	foreach ($dirJS as $file) {
 		if (pathinfo($file, PATHINFO_EXTENSION) === 'css') {
 			$cssName = basename($file);
+
 			wp_enqueue_style('style', get_template_directory_uri() . '/dist/' . $cssName, null, null, 'all');
 		}
 		if (pathinfo($file, PATHINFO_EXTENSION) === 'js') {

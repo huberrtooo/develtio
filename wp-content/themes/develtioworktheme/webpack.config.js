@@ -14,6 +14,7 @@ module.exports = {
     mode: "development",
     entry: {
         main: "./src/main.js",
+        vendor: "./src/vendor.js",
     },
     output: {
         filename: "[name].[contenthash].bundle.js",
@@ -26,7 +27,7 @@ module.exports = {
             // browse to http://localhost:3000/ during development,
             // ./public directory is being served
             host: 'develtiowork.local',
-            port: 3000,
+            // port: 3000,
             files: ['./*.php'],
             // server: { baseDir: ['public'] }
             proxy: 'http://develtiowork.local/'

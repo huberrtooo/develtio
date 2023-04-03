@@ -8,6 +8,23 @@ body{
     font-size: 17px;
 }
 
+// HEADER
+.menu{
+    z-index: 1000;
+
+    .nav-link {
+        color: $c-blue;
+        font-size: 20px; //different as project
+        text-transform: lowercase;
+    }
+}
+
+.menu__logo img{
+    height: 65px;
+    object-fit: contain;
+    padding-right: 25px;
+}
+
 
 // FOOTER
 .footer{

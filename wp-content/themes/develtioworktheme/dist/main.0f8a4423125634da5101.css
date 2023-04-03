@@ -11736,6 +11736,21 @@ body {
   font-size: 17px;
 }
 
+.menu {
+  z-index: 1000;
+}
+.menu .nav-link {
+  color: #1C3E95;
+  font-size: 20px;
+  text-transform: lowercase;
+}
+
+.menu__logo img {
+  height: 65px;
+  object-fit: contain;
+  padding-right: 25px;
+}
+
 .footer {
   background-color: #1C3E95;
 }
