@@ -31,7 +31,7 @@
         </div>
     </section>
 
-    <!-- OFFER SECTION -->
+    <!-- ABOUT SECTION -->
     <section>
         <div class="container-fluid py-5 about">
             <div class="container py-lg-5">

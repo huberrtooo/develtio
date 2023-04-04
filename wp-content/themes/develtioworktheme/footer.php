@@ -1,3 +1,4 @@
+        <!-- FOOTER -->
         <footer>
             <div class="container-fluid py-5 footer">
                 <div class="container py-4">
