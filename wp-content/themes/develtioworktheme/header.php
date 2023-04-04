@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <!-- MAIN MENU -->
     <nav class="navbar navbar-expand-xl justify-content-start">
         <div class="container align-items-center align-items-xl-end menu">
             <div>

@@ -8,6 +8,8 @@ body {
     font-size: 17px;
 }
 
+
+
 // HEADER
 .menu {
     z-index: 1000;
@@ -31,6 +33,7 @@ body {
 }
 
 
+
 // HERO SECTION
 .hero {
     position: relative;
@@ -38,7 +41,6 @@ body {
     padding: 0;
     height: 70vh;
 }
-
 
 .hero__form {
     position: relative;
@@ -60,7 +62,7 @@ body {
     padding: 0;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 991px) {
     .hero {
         height: auto;
     }
@@ -100,7 +102,6 @@ body {
     font-size: 24px;
     line-height: 26px;
 }
-
 
 .hero__contact-form {
 
@@ -150,6 +151,7 @@ body {
 }
 
 
+
 // ABOUT / OFFER
 .about{
     position: relative;
@@ -180,6 +182,7 @@ body {
     font-size: 34px;
     line-height: 40px;
 }
+
 
 
 // FOOTER

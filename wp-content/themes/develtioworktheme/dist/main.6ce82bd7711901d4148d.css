@@ -11799,7 +11799,7 @@ body {
   padding: 0;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 991px) {
   .hero {
     height: auto;
   }
